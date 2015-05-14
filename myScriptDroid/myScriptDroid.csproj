@@ -49,7 +49,7 @@
       <HintPath>packages\Xamarin.Android.Support.v4.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
     </Reference>
     <Reference Include="myScript">
-      <HintPath>..\..\Projects\myScript\myScript\bin\Debug\myScript.dll</HintPath>
+      <HintPath>myScript.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
