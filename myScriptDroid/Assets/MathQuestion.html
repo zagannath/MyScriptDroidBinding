@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MathTutor</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="stylesheet" href="hint.min.css"></link>
+<link rel="stylesheet" type="text/css"
+	href="mathquill-0.9.4/mathquill.css">
+<script src="jquery-1.9.1.min.js"></script>
+<script src="mathquill-0.9.4/mathquill.min.js"></script>
+
+<script>
+(function() {
+    window.UpdateMath = function(TeX) {  		    		
+         		$("#Que2").text(TeX).mathquill();   
+         	}
+         })();
+      </script>
+</head>
+<body style="height: auto">
+	<span id="Que2"
+		style="text-align: center; font-size: 25px; height: auto; line-height: 1.4; font-family: Museo Sans, sans-serif; margin-bottom: 3px;"
+		class="mathquill-embedded-latex"> </span>
+	<div id="Que3" class="mathquill-embedded-latex"></div>
+</body>
+</html>
